@@ -11,8 +11,13 @@ For this project, I created a "word cloud" from a text by writing a script. This
 
 ## Prerequisite
 we have to install some pachages for our word cloud script and uploader widget.
+
 !pip install wordcloud
+
 !pip install fileupload
+
 !pip install ipywidgets
+
 !jupyter nbextension install --py --user fileupload
+
 !jupyter nbextension enable --py fileupload
